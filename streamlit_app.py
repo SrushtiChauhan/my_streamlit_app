@@ -108,6 +108,7 @@ if (len(ticker_details) > 0):
 else:
     st.write("No Data Found!")
 
+"""
 from pmdarima import auto_arima 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -154,3 +155,4 @@ fig = plt.figure()
 data['close'].plot(figsize = (20, 5), legend = True) 
 forecast.plot(legend = True)
 st.pyplot(fig)
+"""
